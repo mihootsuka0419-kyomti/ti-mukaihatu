@@ -6,14 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="tag-area">
-        <select name="category" id="category" required>
-            <option value="" selected disabled>カテゴリを選択してください</option>
-            <option value="movement">遅刻・移動</option>
-            <option value="submission">提出物</option>
-            <option value="communication">連絡</option>
-            <option value="general">その他</option>
-        </select>
-    </div>
+
+    <form method="POST" action="/generate">
+        <div class="tag-area">
+            <select name="category" id="category" required>
+                <option value="" selected disabled>カテゴリを選択してください</option>
+                <option value="movement">遅刻・移動</option>
+                <option value="submission">提出物</option>
+                <option value="communication">連絡</option>
+                <option value="general">その他</option>
+            </select>
+        </div>
+    </form>
+
 </body>
 </html>
