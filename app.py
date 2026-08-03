@@ -2,6 +2,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs
 
+from backend.generator import generate_excuse
+
 
 # app.pyが置かれているプロジェクト直下
 BASE_DIR = Path(__file__).parent
@@ -65,17 +67,26 @@ class AppHandler(BaseHTTPRequestHandler):
                 form_data.get("result", [""])[0].strip()
             )
 
+            # 2種類の文型からランダムに言い訳を生成する
+            excuse = generate_excuse()
+
             html = HTML_FILE.read_text(encoding="utf-8")
 
             html = html.replace(
                 "{{ input_value }}",
                 input_value
             )
-            html = html.replace("{{ row_1 }}", "鳩が")
-            html = html.replace("{{ row_2 }}", "電車を")
+            html = html.replace(
+                "{{ row_1 }}",
+                excuse["row_1"]
+            )
+            html = html.replace(
+                "{{ row_2 }}",
+                excuse["row_2"]
+            )
             html = html.replace(
                 "{{ row_3 }}",
-                "占拠したため、"
+                excuse["row_3"]
             )
             html = html.replace(
                 "{{ row_4 }}",
