@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>カテゴリ選択</title>
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+</head>
+
+<body>
+
+    <form method="POST" action="/input">
+
+        <div class="tag-area">
+
+            <select
+                name="category"
+                id="category"
+                required
+            >
+                <option
+                    value=""
+                    selected
+                    disabled
+                >
+                    カテゴリを選択してください
+                </option>
+
+                <option value="movement">
+                    遅刻・移動
+                </option>
+
+                <option value="submission">
+                    提出物
+                </option>
+
+                <option value="communication">
+                    連絡
+                </option>
+
+                <option value="general">
+                    その他
+                </option>
+            </select>
+
+        </div>
+
+        <button type="submit">
+            次へ
+        </button>
+
+    </form>
+
+</body>
+
+</html>
