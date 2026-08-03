@@ -120,7 +120,7 @@
 
 "actions": [
 {
-"text": "占拠し",
+"text": "占拠した",
 "compatible_categories": [
 "machine",
 "vehicle",
@@ -131,7 +131,7 @@
 
         },
 {
-"text": "停止させ",
+"text": "停止させた",
 "compatible_categories": [
 "system"
 
@@ -139,7 +139,7 @@
 
         },
 {
-"text": "地図から消え",
+"text": "地図から消えた",
 "compatible_categories": [
 "place"
 
@@ -147,7 +147,7 @@
 
         },
 {
-"text": "初期化し",
+"text": "初期化した",
 "compatible_categories": [
 "machine",
 "system",
@@ -157,7 +157,7 @@
 
         },
 {
-"text": "別の時間軸へ移動させ",
+"text": "別の時間軸へ移動させた",
 "compatible_categories": [
 "machine",
 "vehicle",
@@ -168,7 +168,7 @@
 
         },
 {
-"text": "会議の議題にし",
+"text": "会議の議題にした",
 "compatible_categories": [
 "machine",
 "vehicle",
@@ -180,7 +180,7 @@
 
         },
 {
-"text": "持ち去っ",
+"text": "持ち去った",
 "compatible_categories": [
 "machine",
 "document"

@@ -39,7 +39,7 @@ def generate_pattern_1():
     return {
         "row_1": subject + "が",
         "row_2": selected_object["text"] + "を",
-        "row_3": selected_action["text"] + "たため、",
+        "row_3": selected_action["text"] + "ため、",
     }
 
 def generate_pattern_2():
