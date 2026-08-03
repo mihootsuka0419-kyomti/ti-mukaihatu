@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>壮大な言い訳</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <header>
-        <h1>壮大な言い訳</h1>
-    </header>
+        <header>
+            <h1>壮大な言い訳</h1>
+        </header>
 
-    <main>
+        <main>
 
-        <div class="theme-area">
-            <input type="text" placeholder="">
-            <span>の言い訳を考える！</span>
-        </div>
+            <form method="POST" action="/generate">
 
-        <div class="result-area">
-            <div class="result-box"></div>
-            <div class="result-box"></div>
-            <div class="result-box"></div>
-            <div class="result-box"></div>
-        </div>
+                <div class="theme-area">
+                    <input
+                        type="text"
+                        name="result"
+                        value="{{ input_value }}"
+                        placeholder=""
+                    >
+                    <span>の言い訳を考える！</span>
+                </div>
 
-        <button>言い訳する！</button>
+                <div class="result-area">
+                    <div class="result-box">{{ row_1 }}</div>
+                    <div class="result-box">{{ row_2 }}</div>
+                    <div class="result-box">{{ row_3 }}</div>
+                    <div class="result-box">{{ row_4 }}</div>
+                </div>
 
-    </main>
+                <button type="submit">言い訳する！</button>
 
-</div>
+            </form>
+
+        </main>
+
+    </div>
 
 </body>
+
 </html>
