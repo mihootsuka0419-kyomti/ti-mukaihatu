@@ -1,0 +1,65 @@
+/* ==============================
+   Base
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: #222;
+    background-color: #fff;
+}
+
+
+/* ==============================
+   Layout
+============================== */
+
+form {
+    width: 100%;
+    max-width: 390px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+
+/* ==============================
+   Category
+============================== */
+
+.tag-area {
+    width: 100%;
+}
+
+.tag-area select {
+    width: 100%;
+    min-height: 48px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 999px;
+    background-color: #ecece8;
+    color: #222;
+    font: inherit;
+    appearance: none;
+    cursor: pointer;
+}
+
+.tag-area select:focus-visible {
+    outline: 3px solid rgba(50, 50, 124, 0.25);
+    outline-offset: 2px;
+}
+
+.tag-area select:invalid {
+    color: #888;
+}
