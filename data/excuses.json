@@ -3,483 +3,1018 @@
     "normal_weight": 1,
     "preferred_weight": 2
   },
-
+  "start_categories": [
+    "movement",
+    "submission",
+    "communication",
+    "general"
+  ],
   "subjects": [
     {
       "text": "鳩の集団",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "鹿の大群",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "スズメの集団",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "カラスの集団",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "カモの行列",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "野鳥の集団",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "ペンギンの集団",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "近所の猫たち",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "犬の散歩会",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "渡り鳥の一団",
-      "category": "animal_group"
+      "category": "animal_group",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
-
     {
       "text": "野良猫",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "脱走したヤギ",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "駅前の鹿",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "近所の犬",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "一匹のアライグマ",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "通りすがりのリス",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "迷子のペンギン",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "駅前の鳩",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "近所のカラス",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "校庭に入ってきたシカ",
-      "category": "single_animal"
+      "category": "single_animal",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
-
     {
       "text": "コピー機",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "自動改札",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "目覚まし時計",
-      "category": "machine"
-    },
-    {
-      "text": "コンビニのレジ",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "学校のプリンター",
-      "category": "machine"
-    },
-    {
-      "text": "自動販売機",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校のチャイム",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "駅の券売機",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "エスカレーター",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "スマートフォン",
-      "category": "machine"
-    },
-    {
-      "text": "防犯カメラ",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "自動ドア",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "出席管理システム",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "校内放送",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "信号機",
-      "category": "machine"
+      "category": "machine",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
-
     {
       "text": "駅のホーム",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "横断歩道",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "校門",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "玄関のドア",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校までの道路",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "エレベーター",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "バス停",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "通学路",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅前広場",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "歩道",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校の階段",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校の廊下",
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
-
     {
       "text": "謎の組織",
-      "category": "organization"
+      "category": "organization",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "正体不明の調査委員会",
-      "category": "organization"
+      "category": "organization",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "臨時の対策本部",
-      "category": "organization"
+      "category": "organization",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "未来から来た監査団",
-      "category": "organization"
+      "category": "organization",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "宇宙から来た視察団",
-      "category": "organization"
+      "category": "organization",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
-
     {
       "text": "宇宙人",
-      "category": "supernatural"
+      "category": "supernatural",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "未来の自分",
-      "category": "supernatural"
+      "category": "supernatural",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "別の時間軸の自分",
-      "category": "supernatural"
+      "category": "supernatural",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "時間を管理する存在",
-      "category": "supernatural"
+      "category": "supernatural",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "昨日から来た使者",
-      "category": "supernatural"
+      "category": "supernatural",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     }
   ],
-
   "objects": [
     {
       "text": "電車",
-      "category": "transport"
+      "category": "transport",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "バス",
-      "category": "transport"
+      "category": "transport",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "タクシー",
-      "category": "transport"
-    },
-    {
-      "text": "ゴミ収集車",
-      "category": "transport"
+      "category": "transport",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "自転車",
-      "category": "transport"
+      "category": "transport",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "通学用の車両",
-      "category": "transport"
+      "category": "transport",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
-
     {
       "text": "駅の改札",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅のホーム",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅前広場",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "横断歩道",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "通学路",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "バス停",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駐輪場",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "線路",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅構内",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校付近の道路",
-      "category": "transport_place"
+      "category": "transport_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
-
     {
       "text": "学校の正門",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "校庭",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "教室",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "廊下",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "階段",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "昇降口",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "職員室前",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校付近",
-      "category": "school_place"
+      "category": "school_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
-
     {
       "text": "通常業務",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "印刷業務",
-      "category": "work_role"
-    },
-    {
-      "text": "会計業務",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "開門業務",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "通知業務",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "運行業務",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "乗客の受け入れ",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "本人確認業務",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "時刻管理",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "出席確認",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "電力供給",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "利用者対応",
-      "category": "work_role"
+      "category": "work_role",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
     },
-
     {
       "text": "労働基準法",
-      "category": "law_right"
+      "category": "law_right",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "有給休暇",
-      "category": "law_right"
-    },
-    {
-      "text": "団体交渉権",
-      "category": "law_right"
+      "category": "law_right",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "休憩時間",
-      "category": "law_right"
+      "category": "law_right",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "利用規約",
-      "category": "law_right"
-    },
-    {
-      "text": "営業許可",
-      "category": "law_right"
+      "category": "law_right",
+      "compatible_start_categories": [
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "労働時間",
-      "category": "law_right"
-    },
-    {
-      "text": "プライバシー権",
-      "category": "law_right"
+      "category": "law_right",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "安全基準",
-      "category": "law_right"
+      "category": "law_right",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
-    {
-      "text": "業務委託契約",
-      "category": "law_right"
-    },
-
     {
       "text": "本人確認",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "外出届",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "通学証",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "利用契約",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "使用権",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "入場許可",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "乗車資格",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "利用者登録",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "通行目的",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "運行計画",
-      "category": "procedure"
-    },
-    {
-      "text": "配置転換",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "許可証",
-      "category": "procedure"
+      "category": "procedure",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
+    },
+    {
+      "text": "提出受付",
+      "category": "work_role",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
+    },
+    {
+      "text": "ファイル保存",
+      "category": "work_role",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
+    },
+    {
+      "text": "送信業務",
+      "category": "work_role",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "提出期限",
+      "category": "procedure",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     }
   ],
-
   "actions": [
     {
       "text": "占拠した",
@@ -667,7 +1202,6 @@
         "transport_place"
       ]
     },
-
     {
       "text": "臨時集会の会場に指定した",
       "category": "organizational_action",
@@ -803,7 +1337,7 @@
       ]
     },
     {
-      "text": "使用権を主張した",
+      "text": "自由に使用できると主張した",
       "category": "organizational_action",
       "allowed_subject_categories": [
         "animal_group",
@@ -849,7 +1383,6 @@
         "transport_place"
       ]
     },
-
     {
       "text": "主張した",
       "category": "legal_claim",
@@ -983,7 +1516,6 @@
         "law_right"
       ]
     },
-
     {
       "text": "放棄した",
       "category": "work_refusal",
@@ -1119,7 +1651,7 @@
       ]
     },
     {
-      "text": "責任を認めなかった",
+      "text": "担当する責任を認めなかった",
       "category": "work_refusal",
       "allowed_subject_categories": [
         "machine",
@@ -1138,7 +1670,6 @@
         "work_role"
       ]
     },
-
     {
       "text": "要求した",
       "category": "procedure_action",
@@ -1305,7 +1836,7 @@
       ]
     },
     {
-      "text": "許可証の提出対象にした",
+      "text": "追加書類の提出対象にした",
       "category": "procedure_action",
       "allowed_subject_categories": [
         "single_animal",
@@ -1323,9 +1854,212 @@
       "preferred_object_categories": [
         "procedure"
       ]
+    },
+    {
+      "text": "乗っ取った",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "machine",
+        "organization"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "transport_place",
+        "work_role",
+        "procedure"
+      ]
+    },
+    {
+      "text": "独占した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "transport",
+        "transport_place",
+        "work_role"
+      ]
+    },
+    {
+      "text": "私物化した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "transport_place",
+        "school_place",
+        "work_role"
+      ]
+    },
+    {
+      "text": "使用不能にした",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "machine",
+        "infrastructure"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "transport",
+        "transport_place",
+        "work_role"
+      ]
+    },
+    {
+      "text": "独自の管理下に置いた",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "organization",
+        "machine",
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role",
+        "procedure",
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "transport_place",
+        "work_role",
+        "procedure"
+      ]
+    },
+    {
+      "text": "別の用途に転用した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "machine",
+        "organization"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "transport_place",
+        "school_place",
+        "work_role"
+      ]
+    },
+    {
+      "text": "正常に利用できない状態にした",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "machine",
+        "infrastructure"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "transport",
+        "transport_place",
+        "work_role",
+        "procedure"
+      ]
     }
   ],
-
   "large_events": [
     {
       "text": "大規模な磁気嵐の影響で、",
@@ -1351,7 +2085,6 @@
       "text": "地域の無線設備が一斉に誤作動した結果、",
       "category": "electromagnetic"
     },
-
     {
       "text": "市内全域のシステム障害により、",
       "category": "system_failure"
@@ -1376,7 +2109,6 @@
       "text": "市内の本人確認システムが利用不能になり、",
       "category": "system_failure"
     },
-
     {
       "text": "市内全域の時刻障害の影響で、",
       "category": "time_anomaly"
@@ -1401,7 +2133,6 @@
       "text": "一部地域で時間の進み方に差が生じ、",
       "category": "time_anomaly"
     },
-
     {
       "text": "地域限定の重力異常の影響で、",
       "category": "physical_anomaly"
@@ -1422,7 +2153,6 @@
       "text": "原因不明の地盤変動の影響で、",
       "category": "physical_anomaly"
     },
-
     {
       "text": "観測史上最大規模の低気圧の影響で、",
       "category": "weather"
@@ -1443,7 +2173,6 @@
       "text": "予測されていなかった豪雨により、",
       "category": "weather"
     },
-
     {
       "text": "大規模な動物移動の影響で、",
       "category": "ecosystem"
@@ -1468,7 +2197,6 @@
       "text": "動物の活動範囲が急激に拡大し、",
       "category": "ecosystem"
     },
-
     {
       "text": "自治体の実証実験の影響で、",
       "category": "experiment_admin"
@@ -1494,161 +2222,418 @@
       "category": "experiment_admin"
     }
   ],
-
   "familiar_objects": [
     {
       "text": "目覚まし時計",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "学校の時計",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅前の時計",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "スマートフォンの時計",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "カレンダー",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校のチャイム",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "電光掲示板",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "時刻表",
-      "category": "time_device"
+      "category": "time_device",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
-
     {
       "text": "自宅の鍵",
-      "category": "authentication_device"
+      "category": "authentication_device",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "自動改札",
-      "category": "authentication_device"
+      "category": "authentication_device",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
     {
       "text": "出席管理システム",
-      "category": "authentication_device"
+      "category": "authentication_device",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "スマートフォン",
-      "category": "authentication_device"
+      "category": "authentication_device",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "学生証の読み取り機",
-      "category": "authentication_device"
-    },
-    {
-      "text": "コンビニのレジ",
-      "category": "authentication_device"
+      "category": "authentication_device",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅の券売機",
-      "category": "authentication_device"
+      "category": "authentication_device",
+      "compatible_start_categories": [
+        "movement",
+        "general"
+      ]
     },
-
     {
       "text": "信号機",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "エレベーター",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "エスカレーター",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "自動ドア",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅のホーム",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "バス停の案内板",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "電車のドア",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "横断歩道",
-      "category": "mobility_support"
+      "category": "mobility_support",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "コピー機",
-      "category": "work_machine"
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "プリンター",
-      "category": "work_machine"
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "校内放送",
-      "category": "work_machine"
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "学校のWi-Fi",
-      "category": "work_machine"
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "submission",
+        "communication",
+        "general"
+      ]
     },
     {
       "text": "ロッカー",
-      "category": "work_machine"
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
     },
-    {
-      "text": "自動販売機",
-      "category": "work_machine"
-    },
-
     {
       "text": "通学路",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校までの道路",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅前広場",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "学校付近",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "横断歩道",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "校門",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "歩道",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
     },
     {
       "text": "駅構内",
-      "category": "road_place"
+      "category": "road_place",
+      "compatible_start_categories": [
+        "movement",
+        "submission",
+        "general"
+      ]
+    },
+    {
+      "text": "メールシステム",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "連絡アプリ",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "通信回線",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "提出システム",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "submission",
+        "general"
+      ]
+    },
+    {
+      "text": "パソコン",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "submission",
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "メッセージアプリ",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "メールサーバー",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "校内連絡システム",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "通知システム",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "ルーター",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "モバイル回線",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "学校の連絡フォーム",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
+    },
+    {
+      "text": "チャットシステム",
+      "category": "work_machine",
+      "compatible_start_categories": [
+        "communication",
+        "general"
+      ]
     }
   ],
-
   "abnormal_actions": [
     {
       "text": "正しい時刻を表示できなくなり、",
@@ -1765,7 +2750,6 @@
         "time_device"
       ]
     },
-
     {
       "text": "私を本人として認識できなくなり、",
       "category": "identity_failure",
@@ -1886,7 +2870,6 @@
         "authentication_device"
       ]
     },
-
     {
       "text": "通常業務を拒否し、",
       "category": "work_refusal",
@@ -2025,7 +3008,6 @@
         "work_machine"
       ]
     },
-
     {
       "text": "労働基準法の適用を要求し、",
       "category": "legal_claim",
@@ -2153,9 +3135,8 @@
         "work_machine"
       ]
     },
-
     {
-      "text": "利用者の入場審査を始め、",
+      "text": "利用者の利用審査を始め、",
       "category": "independent_screening",
       "allowed_event_categories": [
         "system_failure",
@@ -2176,7 +3157,7 @@
       ]
     },
     {
-      "text": "乗客の選考を始め、",
+      "text": "利用者を独自の基準で選び始め、",
       "category": "independent_screening",
       "allowed_event_categories": [
         "system_failure",
@@ -2197,7 +3178,7 @@
       ]
     },
     {
-      "text": "通行目的の確認を始め、",
+      "text": "利用目的の確認を始め、",
       "category": "independent_screening",
       "allowed_event_categories": [
         "system_failure",
@@ -2238,7 +3219,7 @@
       ]
     },
     {
-      "text": "独自の許可証を要求し、",
+      "text": "独自の利用許可を要求し、",
       "category": "independent_screening",
       "allowed_event_categories": [
         "system_failure",
@@ -2258,7 +3239,6 @@
         "road_place"
       ]
     },
-
     {
       "text": "通行不能な状態になり、",
       "category": "physical_failure",
@@ -2282,7 +3262,7 @@
       ]
     },
     {
-      "text": "開閉を拒否する状態になり、",
+      "text": "通常の操作を受け付けなくなり、",
       "category": "physical_failure",
       "allowed_event_categories": [
         "electromagnetic",
@@ -2304,7 +3284,7 @@
       ]
     },
     {
-      "text": "通常とは逆方向に動き始め、",
+      "text": "通常とは逆の動作をし始め、",
       "category": "physical_failure",
       "allowed_event_categories": [
         "electromagnetic",
@@ -2324,7 +3304,7 @@
       ]
     },
     {
-      "text": "その場から移動しなくなり、",
+      "text": "本来の動作を停止し、",
       "category": "physical_failure",
       "allowed_event_categories": [
         "electromagnetic",
@@ -2347,7 +3327,7 @@
       ]
     },
     {
-      "text": "利用者の進路を封鎖し、",
+      "text": "利用者の行動を妨害し、",
       "category": "physical_failure",
       "allowed_event_categories": [
         "system_failure",
@@ -2367,7 +3347,6 @@
         "road_place"
       ]
     },
-
     {
       "text": "鳩の集団に運営を引き継がれ、",
       "category": "animal_takeover",
@@ -2480,6 +3459,172 @@
       ],
       "preferred_object_categories": [
         "mobility_support",
+        "road_place"
+      ]
+    },
+    {
+      "text": "本来とは異なる処理を開始し、",
+      "category": "operation_anomaly",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly",
+        "weather",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ]
+    },
+    {
+      "text": "独自の規則で動作し始め、",
+      "category": "operation_anomaly",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly",
+        "weather",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ]
+    },
+    {
+      "text": "利用条件を一方的に変更し、",
+      "category": "operation_anomaly",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "work_machine",
+        "mobility_support"
+      ]
+    },
+    {
+      "text": "正常な処理を拒否し、",
+      "category": "operation_anomaly",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "electromagnetic",
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ]
+    },
+    {
+      "text": "処理の優先順位を勝手に変更し、",
+      "category": "operation_anomaly",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "work_machine"
+      ]
+    },
+    {
+      "text": "本来の役割を独自に解釈し始め、",
+      "category": "operation_anomaly",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly",
+        "weather",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "mobility_support",
+        "work_machine",
         "road_place"
       ]
     }
