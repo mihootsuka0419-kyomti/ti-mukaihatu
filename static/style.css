@@ -189,3 +189,68 @@ button:focus-visible {
     outline: 3px solid #fff;
     outline-offset: 3px;
 }
+
+/* ==============================
+   fixed input bar (仮実装！！！)
+============================== */
+
+/* 入力欄と重ならないため余白確保 */
+main {
+    padding-bottom: 96px;
+}
+
+/* 下部の白い背景 */
+form::after {
+    content: "";
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    max-width: 390px;
+    height: 68px;
+    background-color: #fff;
+    transform: translateX(-50%);
+}
+
+/* 既存の入力欄を画面下部へ移動 */
+.theme-area {
+    position: fixed;
+    z-index: 11;
+    right: max(68px, calc((100vw - 390px) / 2 + 68px));
+    bottom: 12px;
+    left: max(12px, calc((100vw - 390px) / 2 + 12px));
+    width: auto;
+    margin: 0;
+}
+
+.theme-area input {
+    min-height: 44px;
+    padding: 8px 18px;
+    background-color: #ddd;
+}
+
+/* 既存ボタンを送信アイコンとして利用 */
+button {
+    position: fixed;
+    z-index: 11;
+    right: max(12px, calc((100vw - 390px) / 2 + 12px));
+    bottom: 12px;
+    width: 44px;
+    min-height: 44px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #426cff;
+    font-size: 0;
+}
+
+/* ボタンの文字を非表示にし、矢印を表示 */
+button::before {
+    content: "➤";
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1;
+    transform: translateX(1px);
+}
