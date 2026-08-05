@@ -1,0 +1,411 @@
+{
+"subjects": [
+    "鳩",
+    "宇宙人",
+    "未来の自分",
+    "近所の猫",
+    "校長先生",
+    "謎の組織"
+
+    ],
+
+"objects": [
+{
+"text": "目覚まし時計",
+"category": "machine"
+
+        },
+{
+"text": "スマートフォン",
+"category": "machine"
+
+        },
+{
+"text": "パソコン",
+"category": "machine"
+
+        },
+{
+"text": "エレベーター",
+"category": "machine"
+
+        },
+{
+"text": "エスカレーター",
+"category": "machine"
+
+        },
+{
+"text": "電車",
+"category": "vehicle"
+
+        },
+{
+"text": "バス",
+"category": "vehicle"
+
+        },
+{
+"text": "飛行機",
+"category": "vehicle"
+
+        },
+{
+"text": "Wi-Fi",
+"category": "system"
+
+        },
+{
+"text": "水道",
+"category": "system"
+
+        },
+{
+"text": "ガス",
+"category": "system"
+
+        },
+{
+"text": "電気",
+"category": "system"
+
+        },
+{
+"text": "宿題",
+"category": "document"
+
+        },
+{
+"text": "通学路",
+"category": "place"
+
+        },
+{
+"text": "家のドア",
+"category": "place"
+
+        },
+{
+"text": "自動ドア",
+"category": "place"
+
+        },
+{
+"text": "会社のオフィス",
+"category": "place"
+
+        },
+{
+"text": "駅",
+"category": "place"
+
+        },
+{
+"text": "空港",
+"category": "place"
+
+        },
+{
+"text": "駐車場",
+"category": "place"
+
+        },
+{
+"text": "駐輪場",
+"category": "place"
+
+        }
+
+    ],
+
+"actions": [
+{
+"text": "占拠した",
+"compatible_categories": [
+"machine",
+"vehicle",
+"system",
+"place"
+
+            ]
+
+        },
+{
+"text": "停止させた",
+"compatible_categories": [
+"system"
+
+            ]
+
+        },
+{
+"text": "地図から消えた",
+"compatible_categories": [
+"place"
+
+            ]
+
+        },
+{
+"text": "初期化した",
+"compatible_categories": [
+"machine",
+"system",
+"document"
+
+            ]
+
+        },
+{
+"text": "別の時間軸へ移動させた",
+"compatible_categories": [
+"machine",
+"vehicle",
+"document",
+"place"
+
+            ]
+
+        },
+{
+"text": "会議の議題にした",
+"compatible_categories": [
+"machine",
+"vehicle",
+"system",
+"document",
+"place"
+
+            ]
+
+        },
+{
+"text": "持ち去った",
+"compatible_categories": [
+"machine",
+"document"
+
+            ]
+
+        }
+
+    ],
+
+"large_events": [
+"鹿の大群が攻めてきた影響で",
+"宇宙から帰ってきた影響で",
+"恐竜が復活した影響で",
+"火星人が攻めてきた影響で",
+"隕石が降ってきた影響で",
+"永久凍土から出てきたウイルスがパンデミックを起こした影響で",
+"氷が溶けたことによる海面上昇の影響で",
+"カラスに襲われた影響で"
+
+    ],
+
+"familiar_objects": [
+{
+"text": "目覚まし時計",
+"category": "machine"
+
+        },
+{
+"text": "パソコン",
+"category": "machine"
+
+        },
+{
+"text": "スマートフォン",
+"category": "machine"
+
+        },
+{
+"text": "エレベーター",
+"category": "machine"
+
+        },
+{
+"text": "エスカレーター",
+"category": "machine"
+
+        },
+{
+"text": "消しゴム",
+"category": "stationery"
+
+        },
+{
+"text": "通学路",
+"category": "place"
+
+        },
+{
+"text": "駅",
+"category": "place"
+
+        },
+{
+"text": "空港",
+"category": "place"
+
+        },
+{
+"text": "会社のオフィス",
+"category": "place"
+
+        },
+{
+"text": "駐輪場",
+"category": "place"
+
+        },
+{
+"text": "駐車場",
+"category": "place"
+
+        },
+{
+"text": "スライドのデータ",
+"category": "document"
+
+        },
+{
+"text": "レポート",
+"category": "document"
+
+        },
+{
+"text": "企画書",
+"category": "document"
+
+        },
+{
+"text": "履歴書",
+"category": "document"
+
+        },
+{
+"text": "免許",
+"category": "document"
+
+        },
+{
+"text": "身分証明書",
+"category": "document"
+
+        },
+{
+"text": "始末書",
+"category": "document"
+
+        },
+{
+"text": "回答用紙",
+"category": "document"
+
+        },
+{
+"text": "提出用のプリント",
+"category": "document"
+
+        }
+
+    ],
+
+"abnormal_actions": [
+{
+"text": "昨日の時刻を表示し続け",
+"compatible_categories": [
+"machine"
+
+            ]
+
+        },
+{
+"text": "封鎖され",
+"compatible_categories": [
+"place"
+
+            ]
+
+        },
+{
+"text": "地図から消え",
+"compatible_categories": [
+"place"
+
+            ]
+
+        },
+{
+"text": "見当たらなくなり",
+"compatible_categories": [
+"document",
+"stationery"
+
+            ]
+
+        },
+{
+"text": "現実との接続を失い",
+"compatible_categories": [
+"machine",
+"place",
+"document"
+
+            ]
+
+        },
+{
+"text": "別の時間軸へ転送され",
+"compatible_categories": [
+"machine",
+"stationery",
+"document",
+"place"
+
+            ]
+
+        },
+{
+"text": "通常の機能を拒否し",
+"compatible_categories": [
+"machine"
+
+            ]
+
+        },
+{
+"text": "重力の影響を受けなくなり",
+"compatible_categories": [
+"machine",
+"stationery",
+"document"
+
+            ]
+
+        },
+{
+"text": "存在を一時的に停止し",
+"compatible_categories": [
+"machine",
+"stationery",
+"document",
+"place"
+
+            ]
+
+        }
+
+    ],
+
+"failures": [
+"遅刻しました",
+"宿題を提出できませんでした",
+"連絡できませんでした",
+"消しゴムを持っていけませんでした",
+"学校へ到着できませんでした",
+"予定どおりに行動できませんでした"
+
+    ]
+}
