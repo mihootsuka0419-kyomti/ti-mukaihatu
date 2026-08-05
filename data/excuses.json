@@ -1,411 +1,2487 @@
 {
-"subjects": [
-    "鳩",
-    "宇宙人",
-    "未来の自分",
-    "近所の猫",
-    "校長先生",
-    "謎の組織"
-
-    ],
-
-"objects": [
-{
-"text": "目覚まし時計",
-"category": "machine"
-
-        },
-{
-"text": "スマートフォン",
-"category": "machine"
-
-        },
-{
-"text": "パソコン",
-"category": "machine"
-
-        },
-{
-"text": "エレベーター",
-"category": "machine"
-
-        },
-{
-"text": "エスカレーター",
-"category": "machine"
-
-        },
-{
-"text": "電車",
-"category": "vehicle"
-
-        },
-{
-"text": "バス",
-"category": "vehicle"
-
-        },
-{
-"text": "飛行機",
-"category": "vehicle"
-
-        },
-{
-"text": "Wi-Fi",
-"category": "system"
-
-        },
-{
-"text": "水道",
-"category": "system"
-
-        },
-{
-"text": "ガス",
-"category": "system"
-
-        },
-{
-"text": "電気",
-"category": "system"
-
-        },
-{
-"text": "宿題",
-"category": "document"
-
-        },
-{
-"text": "通学路",
-"category": "place"
-
-        },
-{
-"text": "家のドア",
-"category": "place"
-
-        },
-{
-"text": "自動ドア",
-"category": "place"
-
-        },
-{
-"text": "会社のオフィス",
-"category": "place"
-
-        },
-{
-"text": "駅",
-"category": "place"
-
-        },
-{
-"text": "空港",
-"category": "place"
-
-        },
-{
-"text": "駐車場",
-"category": "place"
-
-        },
-{
-"text": "駐輪場",
-"category": "place"
-
-        }
-
-    ],
-
-"actions": [
-{
-"text": "占拠した",
-"compatible_categories": [
-"machine",
-"vehicle",
-"system",
-"place"
-
-            ]
-
-        },
-{
-"text": "停止させた",
-"compatible_categories": [
-"system"
-
-            ]
-
-        },
-{
-"text": "地図から消えた",
-"compatible_categories": [
-"place"
-
-            ]
-
-        },
-{
-"text": "初期化した",
-"compatible_categories": [
-"machine",
-"system",
-"document"
-
-            ]
-
-        },
-{
-"text": "別の時間軸へ移動させた",
-"compatible_categories": [
-"machine",
-"vehicle",
-"document",
-"place"
-
-            ]
-
-        },
-{
-"text": "会議の議題にした",
-"compatible_categories": [
-"machine",
-"vehicle",
-"system",
-"document",
-"place"
-
-            ]
-
-        },
-{
-"text": "持ち去った",
-"compatible_categories": [
-"machine",
-"document"
-
-            ]
-
-        }
-
-    ],
-
-"large_events": [
-"鹿の大群が攻めてきた影響で",
-"宇宙から帰ってきた影響で",
-"恐竜が復活した影響で",
-"火星人が攻めてきた影響で",
-"隕石が降ってきた影響で",
-"永久凍土から出てきたウイルスがパンデミックを起こした影響で",
-"氷が溶けたことによる海面上昇の影響で",
-"カラスに襲われた影響で"
-
-    ],
-
-"familiar_objects": [
-{
-"text": "目覚まし時計",
-"category": "machine"
-
-        },
-{
-"text": "パソコン",
-"category": "machine"
-
-        },
-{
-"text": "スマートフォン",
-"category": "machine"
-
-        },
-{
-"text": "エレベーター",
-"category": "machine"
-
-        },
-{
-"text": "エスカレーター",
-"category": "machine"
-
-        },
-{
-"text": "消しゴム",
-"category": "stationery"
-
-        },
-{
-"text": "通学路",
-"category": "place"
-
-        },
-{
-"text": "駅",
-"category": "place"
-
-        },
-{
-"text": "空港",
-"category": "place"
-
-        },
-{
-"text": "会社のオフィス",
-"category": "place"
-
-        },
-{
-"text": "駐輪場",
-"category": "place"
-
-        },
-{
-"text": "駐車場",
-"category": "place"
-
-        },
-{
-"text": "スライドのデータ",
-"category": "document"
-
-        },
-{
-"text": "レポート",
-"category": "document"
-
-        },
-{
-"text": "企画書",
-"category": "document"
-
-        },
-{
-"text": "履歴書",
-"category": "document"
-
-        },
-{
-"text": "免許",
-"category": "document"
-
-        },
-{
-"text": "身分証明書",
-"category": "document"
-
-        },
-{
-"text": "始末書",
-"category": "document"
-
-        },
-{
-"text": "回答用紙",
-"category": "document"
-
-        },
-{
-"text": "提出用のプリント",
-"category": "document"
-
-        }
-
-    ],
-
-"abnormal_actions": [
-{
-"text": "昨日の時刻を表示し続け",
-"compatible_categories": [
-"machine"
-
-            ]
-
-        },
-{
-"text": "封鎖され",
-"compatible_categories": [
-"place"
-
-            ]
-
-        },
-{
-"text": "地図から消え",
-"compatible_categories": [
-"place"
-
-            ]
-
-        },
-{
-"text": "見当たらなくなり",
-"compatible_categories": [
-"document",
-"stationery"
-
-            ]
-
-        },
-{
-"text": "現実との接続を失い",
-"compatible_categories": [
-"machine",
-"place",
-"document"
-
-            ]
-
-        },
-{
-"text": "別の時間軸へ転送され",
-"compatible_categories": [
-"machine",
-"stationery",
-"document",
-"place"
-
-            ]
-
-        },
-{
-"text": "通常の機能を拒否し",
-"compatible_categories": [
-"machine"
-
-            ]
-
-        },
-{
-"text": "重力の影響を受けなくなり",
-"compatible_categories": [
-"machine",
-"stationery",
-"document"
-
-            ]
-
-        },
-{
-"text": "存在を一時的に停止し",
-"compatible_categories": [
-"machine",
-"stationery",
-"document",
-"place"
-
-            ]
-
-        }
-
-    ],
-
-"failures": [
-"遅刻しました",
-"宿題を提出できませんでした",
-"連絡できませんでした",
-"消しゴムを持っていけませんでした",
-"学校へ到着できませんでした",
-"予定どおりに行動できませんでした"
-
-    ]
+  "generation_settings": {
+    "normal_weight": 1,
+    "preferred_weight": 2
+  },
+
+  "subjects": [
+    {
+      "text": "鳩の集団",
+      "category": "animal_group"
+    },
+    {
+      "text": "鹿の大群",
+      "category": "animal_group"
+    },
+    {
+      "text": "スズメの集団",
+      "category": "animal_group"
+    },
+    {
+      "text": "カラスの集団",
+      "category": "animal_group"
+    },
+    {
+      "text": "カモの行列",
+      "category": "animal_group"
+    },
+    {
+      "text": "野鳥の集団",
+      "category": "animal_group"
+    },
+    {
+      "text": "ペンギンの集団",
+      "category": "animal_group"
+    },
+    {
+      "text": "近所の猫たち",
+      "category": "animal_group"
+    },
+    {
+      "text": "犬の散歩会",
+      "category": "animal_group"
+    },
+    {
+      "text": "渡り鳥の一団",
+      "category": "animal_group"
+    },
+
+    {
+      "text": "野良猫",
+      "category": "single_animal"
+    },
+    {
+      "text": "脱走したヤギ",
+      "category": "single_animal"
+    },
+    {
+      "text": "駅前の鹿",
+      "category": "single_animal"
+    },
+    {
+      "text": "近所の犬",
+      "category": "single_animal"
+    },
+    {
+      "text": "一匹のアライグマ",
+      "category": "single_animal"
+    },
+    {
+      "text": "通りすがりのリス",
+      "category": "single_animal"
+    },
+    {
+      "text": "迷子のペンギン",
+      "category": "single_animal"
+    },
+    {
+      "text": "駅前の鳩",
+      "category": "single_animal"
+    },
+    {
+      "text": "近所のカラス",
+      "category": "single_animal"
+    },
+    {
+      "text": "校庭に入ってきたシカ",
+      "category": "single_animal"
+    },
+
+    {
+      "text": "コピー機",
+      "category": "machine"
+    },
+    {
+      "text": "自動改札",
+      "category": "machine"
+    },
+    {
+      "text": "目覚まし時計",
+      "category": "machine"
+    },
+    {
+      "text": "コンビニのレジ",
+      "category": "machine"
+    },
+    {
+      "text": "学校のプリンター",
+      "category": "machine"
+    },
+    {
+      "text": "自動販売機",
+      "category": "machine"
+    },
+    {
+      "text": "学校のチャイム",
+      "category": "machine"
+    },
+    {
+      "text": "駅の券売機",
+      "category": "machine"
+    },
+    {
+      "text": "エスカレーター",
+      "category": "machine"
+    },
+    {
+      "text": "スマートフォン",
+      "category": "machine"
+    },
+    {
+      "text": "防犯カメラ",
+      "category": "machine"
+    },
+    {
+      "text": "自動ドア",
+      "category": "machine"
+    },
+    {
+      "text": "出席管理システム",
+      "category": "machine"
+    },
+    {
+      "text": "校内放送",
+      "category": "machine"
+    },
+    {
+      "text": "信号機",
+      "category": "machine"
+    },
+
+    {
+      "text": "駅のホーム",
+      "category": "infrastructure"
+    },
+    {
+      "text": "横断歩道",
+      "category": "infrastructure"
+    },
+    {
+      "text": "校門",
+      "category": "infrastructure"
+    },
+    {
+      "text": "玄関のドア",
+      "category": "infrastructure"
+    },
+    {
+      "text": "学校までの道路",
+      "category": "infrastructure"
+    },
+    {
+      "text": "エレベーター",
+      "category": "infrastructure"
+    },
+    {
+      "text": "バス停",
+      "category": "infrastructure"
+    },
+    {
+      "text": "通学路",
+      "category": "infrastructure"
+    },
+    {
+      "text": "駅前広場",
+      "category": "infrastructure"
+    },
+    {
+      "text": "歩道",
+      "category": "infrastructure"
+    },
+    {
+      "text": "学校の階段",
+      "category": "infrastructure"
+    },
+    {
+      "text": "学校の廊下",
+      "category": "infrastructure"
+    },
+
+    {
+      "text": "謎の組織",
+      "category": "organization"
+    },
+    {
+      "text": "正体不明の調査委員会",
+      "category": "organization"
+    },
+    {
+      "text": "臨時の対策本部",
+      "category": "organization"
+    },
+    {
+      "text": "未来から来た監査団",
+      "category": "organization"
+    },
+    {
+      "text": "宇宙から来た視察団",
+      "category": "organization"
+    },
+
+    {
+      "text": "宇宙人",
+      "category": "supernatural"
+    },
+    {
+      "text": "未来の自分",
+      "category": "supernatural"
+    },
+    {
+      "text": "別の時間軸の自分",
+      "category": "supernatural"
+    },
+    {
+      "text": "時間を管理する存在",
+      "category": "supernatural"
+    },
+    {
+      "text": "昨日から来た使者",
+      "category": "supernatural"
+    }
+  ],
+
+  "objects": [
+    {
+      "text": "電車",
+      "category": "transport"
+    },
+    {
+      "text": "バス",
+      "category": "transport"
+    },
+    {
+      "text": "タクシー",
+      "category": "transport"
+    },
+    {
+      "text": "ゴミ収集車",
+      "category": "transport"
+    },
+    {
+      "text": "自転車",
+      "category": "transport"
+    },
+    {
+      "text": "通学用の車両",
+      "category": "transport"
+    },
+
+    {
+      "text": "駅の改札",
+      "category": "transport_place"
+    },
+    {
+      "text": "駅のホーム",
+      "category": "transport_place"
+    },
+    {
+      "text": "駅前広場",
+      "category": "transport_place"
+    },
+    {
+      "text": "横断歩道",
+      "category": "transport_place"
+    },
+    {
+      "text": "通学路",
+      "category": "transport_place"
+    },
+    {
+      "text": "バス停",
+      "category": "transport_place"
+    },
+    {
+      "text": "駐輪場",
+      "category": "transport_place"
+    },
+    {
+      "text": "線路",
+      "category": "transport_place"
+    },
+    {
+      "text": "駅構内",
+      "category": "transport_place"
+    },
+    {
+      "text": "学校付近の道路",
+      "category": "transport_place"
+    },
+
+    {
+      "text": "学校の正門",
+      "category": "school_place"
+    },
+    {
+      "text": "校庭",
+      "category": "school_place"
+    },
+    {
+      "text": "教室",
+      "category": "school_place"
+    },
+    {
+      "text": "廊下",
+      "category": "school_place"
+    },
+    {
+      "text": "階段",
+      "category": "school_place"
+    },
+    {
+      "text": "昇降口",
+      "category": "school_place"
+    },
+    {
+      "text": "職員室前",
+      "category": "school_place"
+    },
+    {
+      "text": "学校付近",
+      "category": "school_place"
+    },
+
+    {
+      "text": "通常業務",
+      "category": "work_role"
+    },
+    {
+      "text": "印刷業務",
+      "category": "work_role"
+    },
+    {
+      "text": "会計業務",
+      "category": "work_role"
+    },
+    {
+      "text": "開門業務",
+      "category": "work_role"
+    },
+    {
+      "text": "通知業務",
+      "category": "work_role"
+    },
+    {
+      "text": "運行業務",
+      "category": "work_role"
+    },
+    {
+      "text": "乗客の受け入れ",
+      "category": "work_role"
+    },
+    {
+      "text": "本人確認業務",
+      "category": "work_role"
+    },
+    {
+      "text": "時刻管理",
+      "category": "work_role"
+    },
+    {
+      "text": "出席確認",
+      "category": "work_role"
+    },
+    {
+      "text": "電力供給",
+      "category": "work_role"
+    },
+    {
+      "text": "利用者対応",
+      "category": "work_role"
+    },
+
+    {
+      "text": "労働基準法",
+      "category": "law_right"
+    },
+    {
+      "text": "有給休暇",
+      "category": "law_right"
+    },
+    {
+      "text": "団体交渉権",
+      "category": "law_right"
+    },
+    {
+      "text": "休憩時間",
+      "category": "law_right"
+    },
+    {
+      "text": "利用規約",
+      "category": "law_right"
+    },
+    {
+      "text": "営業許可",
+      "category": "law_right"
+    },
+    {
+      "text": "労働時間",
+      "category": "law_right"
+    },
+    {
+      "text": "プライバシー権",
+      "category": "law_right"
+    },
+    {
+      "text": "安全基準",
+      "category": "law_right"
+    },
+    {
+      "text": "業務委託契約",
+      "category": "law_right"
+    },
+
+    {
+      "text": "本人確認",
+      "category": "procedure"
+    },
+    {
+      "text": "外出届",
+      "category": "procedure"
+    },
+    {
+      "text": "通学証",
+      "category": "procedure"
+    },
+    {
+      "text": "利用契約",
+      "category": "procedure"
+    },
+    {
+      "text": "使用権",
+      "category": "procedure"
+    },
+    {
+      "text": "入場許可",
+      "category": "procedure"
+    },
+    {
+      "text": "乗車資格",
+      "category": "procedure"
+    },
+    {
+      "text": "利用者登録",
+      "category": "procedure"
+    },
+    {
+      "text": "通行目的",
+      "category": "procedure"
+    },
+    {
+      "text": "運行計画",
+      "category": "procedure"
+    },
+    {
+      "text": "配置転換",
+      "category": "procedure"
+    },
+    {
+      "text": "許可証",
+      "category": "procedure"
+    }
+  ],
+
+  "actions": [
+    {
+      "text": "占拠した",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport",
+        "transport_place"
+      ]
+    },
+    {
+      "text": "封鎖した",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "通行不能にした",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "休憩所として占有した",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "集会場に変更した",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place",
+        "school_place"
+      ]
+    },
+    {
+      "text": "縄張りとして宣言した",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "取り囲んだ",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport"
+      ]
+    },
+    {
+      "text": "進入禁止にした",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "organization"
+      ],
+      "allowed_object_categories": [
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "独自の検問対象にした",
+      "category": "physical_obstruction",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "organization"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+
+    {
+      "text": "臨時集会の会場に指定した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "single_animal"
+      ],
+      "allowed_object_categories": [
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "株主総会の会場として使用した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "交通誘導の指揮下に置いた",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "自治区域として認定した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "single_animal"
+      ],
+      "allowed_object_categories": [
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "管理区域に編入した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "single_animal",
+        "animal_group"
+      ],
+      "allowed_object_categories": [
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "transport_place"
+      ]
+    },
+    {
+      "text": "独自の規則で運営した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "work_role"
+      ],
+      "preferred_object_categories": [
+        "transport_place",
+        "work_role"
+      ]
+    },
+    {
+      "text": "使用権を主張した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "animal_group",
+        "single_animal"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "transport_place",
+        "procedure"
+      ]
+    },
+    {
+      "text": "警備対象に指定した",
+      "category": "organizational_action",
+      "allowed_subject_categories": [
+        "animal_group",
+        "single_animal",
+        "machine",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "single_animal"
+      ],
+      "allowed_object_categories": [
+        "transport",
+        "transport_place",
+        "school_place"
+      ],
+      "preferred_object_categories": [
+        "school_place",
+        "transport_place"
+      ]
+    },
+
+    {
+      "text": "主張した",
+      "category": "legal_claim",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "law_right"
+      ]
+    },
+    {
+      "text": "行使した",
+      "category": "legal_claim",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "law_right"
+      ]
+    },
+    {
+      "text": "適用するよう要求した",
+      "category": "legal_claim",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "law_right"
+      ]
+    },
+    {
+      "text": "根拠として業務を拒否した",
+      "category": "legal_claim",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "law_right"
+      ]
+    },
+    {
+      "text": "理由に休業を宣言した",
+      "category": "legal_claim",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "law_right"
+      ]
+    },
+    {
+      "text": "違反だとして業務を停止した",
+      "category": "legal_claim",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "law_right"
+      ]
+    },
+    {
+      "text": "法的確認の対象にした",
+      "category": "legal_claim",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "law_right",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "law_right"
+      ]
+    },
+
+    {
+      "text": "放棄した",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "work_role"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+    {
+      "text": "停止した",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "infrastructure"
+      ],
+      "allowed_object_categories": [
+        "work_role"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+    {
+      "text": "拒否した",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "infrastructure"
+      ],
+      "allowed_object_categories": [
+        "work_role"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+    {
+      "text": "無期限で保留した",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+    {
+      "text": "外部委託した",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "work_role"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+    {
+      "text": "自主的に休止した",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "work_role"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+    {
+      "text": "担当外として処理した",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+    {
+      "text": "責任を認めなかった",
+      "category": "work_refusal",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "work_role",
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "work_role"
+      ]
+    },
+
+    {
+      "text": "要求した",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "infrastructure"
+      ],
+      "allowed_object_categories": [
+        "procedure",
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "長引かせた",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "infrastructure"
+      ],
+      "allowed_object_categories": [
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "再審査した",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "single_animal"
+      ],
+      "allowed_object_categories": [
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "無効として扱った",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "procedure",
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "独自に改定した",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "organization"
+      ],
+      "allowed_object_categories": [
+        "procedure",
+        "law_right"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "確認できないと判断した",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization",
+        "supernatural"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "差し戻した",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine"
+      ],
+      "allowed_object_categories": [
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "利用資格の審査対象にした",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "single_animal"
+      ],
+      "allowed_object_categories": [
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    },
+    {
+      "text": "許可証の提出対象にした",
+      "category": "procedure_action",
+      "allowed_subject_categories": [
+        "single_animal",
+        "machine",
+        "infrastructure",
+        "organization"
+      ],
+      "preferred_subject_categories": [
+        "machine",
+        "infrastructure"
+      ],
+      "allowed_object_categories": [
+        "procedure"
+      ],
+      "preferred_object_categories": [
+        "procedure"
+      ]
+    }
+  ],
+
+  "large_events": [
+    {
+      "text": "大規模な磁気嵐の影響で、",
+      "category": "electromagnetic"
+    },
+    {
+      "text": "広域的な電磁波異常の影響で、",
+      "category": "electromagnetic"
+    },
+    {
+      "text": "通信衛星の一時的な誤作動により、",
+      "category": "electromagnetic"
+    },
+    {
+      "text": "原因不明の電波干渉の影響で、",
+      "category": "electromagnetic"
+    },
+    {
+      "text": "市内全域で通信障害が発生し、",
+      "category": "electromagnetic"
+    },
+    {
+      "text": "地域の無線設備が一斉に誤作動した結果、",
+      "category": "electromagnetic"
+    },
+
+    {
+      "text": "市内全域のシステム障害により、",
+      "category": "system_failure"
+    },
+    {
+      "text": "広域的な認証障害の影響で、",
+      "category": "system_failure"
+    },
+    {
+      "text": "地域全体の交通制御システムが停止した結果、",
+      "category": "system_failure"
+    },
+    {
+      "text": "自治体の管理システムに異常が発生し、",
+      "category": "system_failure"
+    },
+    {
+      "text": "公共設備の制御システムが一斉に停止し、",
+      "category": "system_failure"
+    },
+    {
+      "text": "市内の本人確認システムが利用不能になり、",
+      "category": "system_failure"
+    },
+
+    {
+      "text": "市内全域の時刻障害の影響で、",
+      "category": "time_anomaly"
+    },
+    {
+      "text": "原因不明の時間のずれにより、",
+      "category": "time_anomaly"
+    },
+    {
+      "text": "地域内の時計が一斉に停止した結果、",
+      "category": "time_anomaly"
+    },
+    {
+      "text": "標準時の再計算が行われた影響で、",
+      "category": "time_anomaly"
+    },
+    {
+      "text": "市内の時刻情報が統一できなくなり、",
+      "category": "time_anomaly"
+    },
+    {
+      "text": "一部地域で時間の進み方に差が生じ、",
+      "category": "time_anomaly"
+    },
+
+    {
+      "text": "地域限定の重力異常の影響で、",
+      "category": "physical_anomaly"
+    },
+    {
+      "text": "地下で発生した大規模な振動により、",
+      "category": "physical_anomaly"
+    },
+    {
+      "text": "地域的な空間のゆがみの影響で、",
+      "category": "physical_anomaly"
+    },
+    {
+      "text": "観測史上最大規模の気圧変動により、",
+      "category": "physical_anomaly"
+    },
+    {
+      "text": "原因不明の地盤変動の影響で、",
+      "category": "physical_anomaly"
+    },
+
+    {
+      "text": "観測史上最大規模の低気圧の影響で、",
+      "category": "weather"
+    },
+    {
+      "text": "地域全体を覆った濃霧により、",
+      "category": "weather"
+    },
+    {
+      "text": "局地的な突風が長時間続いた結果、",
+      "category": "weather"
+    },
+    {
+      "text": "急激な気圧低下の影響で、",
+      "category": "weather"
+    },
+    {
+      "text": "予測されていなかった豪雨により、",
+      "category": "weather"
+    },
+
+    {
+      "text": "大規模な動物移動の影響で、",
+      "category": "ecosystem"
+    },
+    {
+      "text": "原因不明の生態系変化により、",
+      "category": "ecosystem"
+    },
+    {
+      "text": "渡り鳥の経路が大幅に変化した結果、",
+      "category": "ecosystem"
+    },
+    {
+      "text": "市内に多数の野鳥が集まった影響で、",
+      "category": "ecosystem"
+    },
+    {
+      "text": "近隣地域から鹿の大群が移動してきたため、",
+      "category": "ecosystem"
+    },
+    {
+      "text": "動物の活動範囲が急激に拡大し、",
+      "category": "ecosystem"
+    },
+
+    {
+      "text": "自治体の実証実験の影響で、",
+      "category": "experiment_admin"
+    },
+    {
+      "text": "近隣研究施設の実験結果により、",
+      "category": "experiment_admin"
+    },
+    {
+      "text": "新しい交通管理システムの試験運用中に、",
+      "category": "experiment_admin"
+    },
+    {
+      "text": "公共設備の一斉更新に伴い、",
+      "category": "experiment_admin"
+    },
+    {
+      "text": "市内の自動化実験が想定外の結果となり、",
+      "category": "experiment_admin"
+    },
+    {
+      "text": "行政システムの大規模更新によって、",
+      "category": "experiment_admin"
+    }
+  ],
+
+  "familiar_objects": [
+    {
+      "text": "目覚まし時計",
+      "category": "time_device"
+    },
+    {
+      "text": "学校の時計",
+      "category": "time_device"
+    },
+    {
+      "text": "駅前の時計",
+      "category": "time_device"
+    },
+    {
+      "text": "スマートフォンの時計",
+      "category": "time_device"
+    },
+    {
+      "text": "カレンダー",
+      "category": "time_device"
+    },
+    {
+      "text": "学校のチャイム",
+      "category": "time_device"
+    },
+    {
+      "text": "電光掲示板",
+      "category": "time_device"
+    },
+    {
+      "text": "時刻表",
+      "category": "time_device"
+    },
+
+    {
+      "text": "自宅の鍵",
+      "category": "authentication_device"
+    },
+    {
+      "text": "自動改札",
+      "category": "authentication_device"
+    },
+    {
+      "text": "出席管理システム",
+      "category": "authentication_device"
+    },
+    {
+      "text": "スマートフォン",
+      "category": "authentication_device"
+    },
+    {
+      "text": "学生証の読み取り機",
+      "category": "authentication_device"
+    },
+    {
+      "text": "コンビニのレジ",
+      "category": "authentication_device"
+    },
+    {
+      "text": "駅の券売機",
+      "category": "authentication_device"
+    },
+
+    {
+      "text": "信号機",
+      "category": "mobility_support"
+    },
+    {
+      "text": "エレベーター",
+      "category": "mobility_support"
+    },
+    {
+      "text": "エスカレーター",
+      "category": "mobility_support"
+    },
+    {
+      "text": "自動ドア",
+      "category": "mobility_support"
+    },
+    {
+      "text": "駅のホーム",
+      "category": "mobility_support"
+    },
+    {
+      "text": "バス停の案内板",
+      "category": "mobility_support"
+    },
+    {
+      "text": "電車のドア",
+      "category": "mobility_support"
+    },
+    {
+      "text": "横断歩道",
+      "category": "mobility_support"
+    },
+    {
+      "text": "コピー機",
+      "category": "work_machine"
+    },
+    {
+      "text": "プリンター",
+      "category": "work_machine"
+    },
+    {
+      "text": "校内放送",
+      "category": "work_machine"
+    },
+    {
+      "text": "学校のWi-Fi",
+      "category": "work_machine"
+    },
+    {
+      "text": "ロッカー",
+      "category": "work_machine"
+    },
+    {
+      "text": "自動販売機",
+      "category": "work_machine"
+    },
+
+    {
+      "text": "通学路",
+      "category": "road_place"
+    },
+    {
+      "text": "学校までの道路",
+      "category": "road_place"
+    },
+    {
+      "text": "駅前広場",
+      "category": "road_place"
+    },
+    {
+      "text": "学校付近",
+      "category": "road_place"
+    },
+    {
+      "text": "横断歩道",
+      "category": "road_place"
+    },
+    {
+      "text": "校門",
+      "category": "road_place"
+    },
+    {
+      "text": "歩道",
+      "category": "road_place"
+    },
+    {
+      "text": "駅構内",
+      "category": "road_place"
+    }
+  ],
+
+  "abnormal_actions": [
+    {
+      "text": "正しい時刻を表示できなくなり、",
+      "category": "time_recognition_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "time_device"
+      ]
+    },
+    {
+      "text": "始業時刻を認識しなくなり、",
+      "category": "time_recognition_failure",
+      "allowed_event_categories": [
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device"
+      ],
+      "preferred_object_categories": [
+        "time_device"
+      ]
+    },
+    {
+      "text": "午前中を表示しなくなり、",
+      "category": "time_recognition_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device"
+      ],
+      "preferred_object_categories": [
+        "time_device"
+      ]
+    },
+    {
+      "text": "日付の更新を保留し、",
+      "category": "time_recognition_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device"
+      ],
+      "preferred_object_categories": [
+        "time_device"
+      ]
+    },
+    {
+      "text": "すべての予定を翌日に移動し、",
+      "category": "time_recognition_failure",
+      "allowed_event_categories": [
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device"
+      ],
+      "preferred_object_categories": [
+        "time_device"
+      ]
+    },
+    {
+      "text": "同じ時刻を繰り返す状態になり、",
+      "category": "time_recognition_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "time_device"
+      ]
+    },
+
+    {
+      "text": "私を本人として認識できなくなり、",
+      "category": "identity_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "私の存在を確認できなくなり、",
+      "category": "identity_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "私だけを利用者として拒否し、",
+      "category": "identity_failure",
+      "allowed_event_categories": [
+        "system_failure",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "本人確認を完了できなくなり、",
+      "category": "identity_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "authentication_device"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "私を登録外の人物として処理し、",
+      "category": "identity_failure",
+      "allowed_event_categories": [
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "私を概念として処理する状態になり、",
+      "category": "identity_failure",
+      "allowed_event_categories": [
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+
+    {
+      "text": "通常業務を拒否し、",
+      "category": "work_refusal",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "electromagnetic",
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "work_machine"
+      ]
+    },
+    {
+      "text": "自主的に休業し、",
+      "category": "work_refusal",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "electromagnetic"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "work_machine"
+      ]
+    },
+    {
+      "text": "担当業務を放棄し、",
+      "category": "work_refusal",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "physical_anomaly",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "electromagnetic",
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "work_machine"
+      ]
+    },
+    {
+      "text": "すべての操作を保留し、",
+      "category": "work_refusal",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "work_machine",
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "業務時間の終了を宣言し、",
+      "category": "work_refusal",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "time_device",
+        "work_machine"
+      ]
+    },
+    {
+      "text": "利用者対応を外部委託し、",
+      "category": "work_refusal",
+      "allowed_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "work_machine"
+      ]
+    },
+
+    {
+      "text": "労働基準法の適用を要求し、",
+      "category": "legal_claim",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly",
+        "electromagnetic"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "time_device",
+        "work_machine"
+      ]
+    },
+    {
+      "text": "労働時間超過を検出し、",
+      "category": "legal_claim",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "time_device"
+      ]
+    },
+    {
+      "text": "有給休暇を取得し、",
+      "category": "legal_claim",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "time_anomaly",
+        "electromagnetic"
+      ],
+      "allowed_object_categories": [
+        "time_device",
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "work_machine"
+      ]
+    },
+    {
+      "text": "利用規約への同意を求め、",
+      "category": "legal_claim",
+      "allowed_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "安全基準を満たさないと判断し、",
+      "category": "legal_claim",
+      "allowed_event_categories": [
+        "system_failure",
+        "physical_anomaly",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "work_machine",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "mobility_support"
+      ]
+    },
+    {
+      "text": "営業許可の更新を要求し、",
+      "category": "legal_claim",
+      "allowed_event_categories": [
+        "system_failure",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "work_machine"
+      ]
+    },
+
+    {
+      "text": "利用者の入場審査を始め、",
+      "category": "independent_screening",
+      "allowed_event_categories": [
+        "system_failure",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin",
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "乗客の選考を始め、",
+      "category": "independent_screening",
+      "allowed_event_categories": [
+        "system_failure",
+        "weather",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "mobility_support"
+      ]
+    },
+    {
+      "text": "通行目的の確認を始め、",
+      "category": "independent_screening",
+      "allowed_event_categories": [
+        "system_failure",
+        "weather",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "road_place"
+      ]
+    },
+    {
+      "text": "利用資格を再審査し、",
+      "category": "independent_screening",
+      "allowed_event_categories": [
+        "system_failure",
+        "time_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin",
+        "system_failure"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "authentication_device"
+      ]
+    },
+    {
+      "text": "独自の許可証を要求し、",
+      "category": "independent_screening",
+      "allowed_event_categories": [
+        "system_failure",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "experiment_admin"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "authentication_device",
+        "road_place"
+      ]
+    },
+
+    {
+      "text": "通行不能な状態になり、",
+      "category": "physical_failure",
+      "allowed_event_categories": [
+        "physical_anomaly",
+        "weather",
+        "ecosystem",
+        "system_failure"
+      ],
+      "preferred_event_categories": [
+        "physical_anomaly",
+        "weather"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "mobility_support",
+        "road_place"
+      ]
+    },
+    {
+      "text": "開閉を拒否する状態になり、",
+      "category": "physical_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "physical_anomaly",
+        "weather",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "system_failure",
+        "physical_anomaly"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "authentication_device"
+      ],
+      "preferred_object_categories": [
+        "mobility_support"
+      ]
+    },
+    {
+      "text": "通常とは逆方向に動き始め、",
+      "category": "physical_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "physical_anomaly",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "physical_anomaly"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "mobility_support"
+      ]
+    },
+    {
+      "text": "その場から移動しなくなり、",
+      "category": "physical_failure",
+      "allowed_event_categories": [
+        "electromagnetic",
+        "system_failure",
+        "physical_anomaly",
+        "weather",
+        "ecosystem"
+      ],
+      "preferred_event_categories": [
+        "physical_anomaly",
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "mobility_support"
+      ]
+    },
+    {
+      "text": "利用者の進路を封鎖し、",
+      "category": "physical_failure",
+      "allowed_event_categories": [
+        "system_failure",
+        "physical_anomaly",
+        "weather",
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "road_place"
+      ]
+    },
+
+    {
+      "text": "鳩の集団に運営を引き継がれ、",
+      "category": "animal_takeover",
+      "allowed_event_categories": [
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "authentication_device",
+        "mobility_support",
+        "work_machine",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "mobility_support",
+        "road_place"
+      ]
+    },
+    {
+      "text": "野鳥の臨時集会場になり、",
+      "category": "animal_takeover",
+      "allowed_event_categories": [
+        "ecosystem",
+        "weather"
+      ],
+      "preferred_event_categories": [
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "road_place"
+      ]
+    },
+    {
+      "text": "鹿の保護区域として扱われ、",
+      "category": "animal_takeover",
+      "allowed_event_categories": [
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "road_place"
+      ]
+    },
+    {
+      "text": "カラスの交通誘導下に置かれ、",
+      "category": "animal_takeover",
+      "allowed_event_categories": [
+        "ecosystem",
+        "weather"
+      ],
+      "preferred_event_categories": [
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place"
+      ],
+      "preferred_object_categories": [
+        "mobility_support"
+      ]
+    },
+    {
+      "text": "猫の縄張りとして封鎖され、",
+      "category": "animal_takeover",
+      "allowed_event_categories": [
+        "ecosystem",
+        "weather"
+      ],
+      "preferred_event_categories": [
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place",
+        "work_machine"
+      ],
+      "preferred_object_categories": [
+        "road_place"
+      ]
+    },
+    {
+      "text": "カモの行列を最優先する状態になり、",
+      "category": "animal_takeover",
+      "allowed_event_categories": [
+        "ecosystem",
+        "experiment_admin"
+      ],
+      "preferred_event_categories": [
+        "ecosystem"
+      ],
+      "allowed_object_categories": [
+        "mobility_support",
+        "road_place",
+        "authentication_device"
+      ],
+      "preferred_object_categories": [
+        "mobility_support",
+        "road_place"
+      ]
+    }
+  ]
 }
