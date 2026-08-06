@@ -13,7 +13,7 @@
 
     <link
         rel="stylesheet"
-        href="/static/style.css"
+        href="/static/reply.css"
     >
 </head>
 
@@ -34,9 +34,17 @@
                     {{ completed_text }}
                 </div>
 
-                <!-- バックエンドが選んだ先生の返答 -->
-                <div class="reply-box">
-                    {{ reply_text }}
+                <div class="reply-wrapper">
+
+                    <div class="typing">
+                        入力中...
+                    </div>
+
+                    <!-- バックエンドが選んだ先生の返答 -->
+                    <div class="reply-box">
+                        {{ reply_text }}
+                    </div>
+
                 </div>
 
             </div>
