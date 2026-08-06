@@ -16,6 +16,7 @@ INDEX_HTML_FILE = BASE_DIR / "templates" / "index.html"
 REPLY_HTML_FILE = BASE_DIR / "templates" / "reply.html"
 
 # CSSファイル
+START_CSS_FILE = BASE_DIR / "static" / "start.css"
 STYLE_CSS_FILE = BASE_DIR / "static" / "style.css"
 TUTORIAL_CSS_FILE = BASE_DIR / "static" / "tutorial.css"
 
@@ -220,6 +221,19 @@ class AppHandler(BaseHTTPRequestHandler):
                 css,
             )
             return
+
+        # 1ページ目専用CSS
+        if self.path == "/static/start.css":
+            css = START_CSS_FILE.read_text(
+                encoding="utf-8"
+            )
+
+            send_css(
+                self,
+                css,
+            )
+            return
+
 
         # 2ページ目専用CSS
         if self.path == "/static/tutorial.css":
