@@ -19,6 +19,7 @@ REPLY_HTML_FILE = BASE_DIR / "templates" / "reply.html"
 START_CSS_FILE = BASE_DIR / "static" / "start.css"
 STYLE_CSS_FILE = BASE_DIR / "static" / "style.css"
 TUTORIAL_CSS_FILE = BASE_DIR / "static" / "tutorial.css"
+REPLY_CSS_FILE = BASE_DIR / "static" / "reply.css"
 
 
 VALID_CATEGORIES = {
@@ -247,10 +248,24 @@ class AppHandler(BaseHTTPRequestHandler):
             )
             return
 
+        
+
+        # 4ページ目専用CSS
+        if self.path == "/static/reply.css":
+            css = REPLY_CSS_FILE.read_text(
+                 encoding="utf-8"
+            )
+        
+            send_css(
+                self,
+                css,
+                    )
+            return
+
         self.send_error(
-            404,
-            "Not Found",
-        )
+                    404,
+                    "Not Found",
+                )
 
     def do_POST(self):
         # 1ページ目から2ページ目へ進む
