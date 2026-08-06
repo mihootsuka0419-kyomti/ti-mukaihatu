@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>壮大な言い訳</title>
+
     <link rel="stylesheet" href="/static/style.css">
 </head>
 
@@ -23,12 +23,16 @@
             <form method="POST" action="/generate">
 
                 <!-- start.htmlで選択したカテゴリを保持する -->
-                <input type="hidden" name="category" value="{{ category }}">
+                <input
+                    type="hidden"
+                    name="category"
+                    value="{{ category }}"
+                >
 
+                <!-- ユーザーが入力した内容 -->
                 <div class="contents-box">
-                    {{ row_4 }}
+                    {{ input_value }}
                 </div>
-
 
                 <div class="reply-box">
                     どうしてですか？
@@ -64,11 +68,24 @@
 
                 <div class="footer">
 
-                    <button type="submit" class="reset-button">
-                        <strong>言い訳を考え直す</strong>
+                   
+
+                    <button
+                        type="submit"
+                        class="reset-button"
+                        name="action"
+                        value="regenerate"
+                    >
+                        言い訳を考え直す
                     </button>
 
-                    <button type="submit" class="send-button">
+                    <button
+                        type="submit"
+                        class="send-button"
+                        name="action"
+                        value="generate"
+                        aria-label="言い訳を生成する"
+                    >
                         ▶︎
                     </button>
 
