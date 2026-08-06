@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>壮大な言い訳</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>壮大な言い訳</h1>
+        </header>
+
+        <main>
+
+            <div class="result-area">
+
+                <!-- 3ページ目で確定した言い訳 -->
+                <div class="result-box">
+                    {{ completed_text }}
+                </div>
+
+                <!-- バックエンドが選んだ先生の返答 -->
+                <div class="reply-box">
+                    {{ reply_text }}
+                </div>
+
+            </div>
+
+            <p class="end-message">
+                このチャットは終了しました
+            </p>
+
+            <div class="operation-area">
+
+                <a href="/">
+                    タイトルに戻る
+                </a>
+
+                <!-- 3ページ目の同じ生成結果へ戻る -->
+                <form
+                    method="POST"
+                    action="/back"
+                    class="back-form"
+                >
+                    <input
+                        type="hidden"
+                        name="category"
+                        value="{{ category }}"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="result"
+                        value="{{ input_value }}"
+                    >
+
+                    <textarea
+                        name="row_1"
+                        hidden
+                    >{{ row_1 }}</textarea>
+
+                    <textarea
+                        name="row_2"
+                        hidden
+                    >{{ row_2 }}</textarea>
+
+                    <textarea
+                        name="row_3"
+                        hidden
+                    >{{ row_3 }}</textarea>
+
+                    <button
+                        type="submit"
+                        class="back-button"
+                    >
+                        1つ前に戻る
+                    </button>
+                </form>
+
+            </div>
+
+            <div class="footer">
+                <span class="text-area"></span>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>

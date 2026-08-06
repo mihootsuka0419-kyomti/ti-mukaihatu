@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>壮大な言い訳</title>
+
+  <link
+    rel="stylesheet"
+    href="/static/tutorial.css"
+  >
+</head>
+
+<body>
+
+  <header>
+    <h1>チュートリアル</h1>
+  </header>
+
+  <main>
+
+    <div class="explanation-area">
+
+      <div class="explanation-box">
+
+        <p class="explanation-title">
+          、、がアナウンスしました
+        </p>
+
+        <p class="explanation-text">
+          下のあおい三角（送信ボタン）を押して、次に進めてね。<br>
+          言い訳を考え直したい時は「言い訳を考え直す」を押してね！
+        </p>
+
+      </div>
+
+      <div class="explanation-box">
+
+        <p class="explanation-text">
+          入力欄に言い訳する内容を入力してね！<br>
+          ※内容は「〜た」で終わるように入力してね！
+        </p>
+
+      </div>
+
+    </div>
+
+    <form method="POST" action="/generate">
+
+      <!-- 1ページ目で選択したカテゴリーを保持する -->
+      <input
+        type="hidden"
+        name="category"
+        value="{{ category }}"
+      >
+
+      <div class="footer">
+
+        <div class="theme-area">
+
+          <input
+            type="text"
+            name="result"
+            value="{{ input_value }}"
+            placeholder="入力欄"
+            required
+          >
+
+          <span></span>
+
+        </div>
+
+        <p class="error-message">
+          {{ error_message }}
+        </p>
+
+        <button
+          type="submit"
+          class="send-button"
+          aria-label="言い訳する内容を送信"
+        >
+          ▶︎
+        </button>
+
+      </div>
+
+    </form>
+
+  </main>
+
+</body>
+
+</html>
