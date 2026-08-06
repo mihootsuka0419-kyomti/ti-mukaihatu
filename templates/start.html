@@ -15,7 +15,9 @@
 
         <form method="POST" action="/input">
 
-            <p>言い訳したい内容を選んでね！</p>
+            <p class="title-text">
+                言い訳したい内容を選んでね！
+            </p>
 
             <div class="tag-area">
 
@@ -42,6 +44,10 @@
                 </select>
                 <span class="after-text">の言い訳をする！</span>
             </div>
+
+            <p class="error-message">
+                {{ error }}
+            </p>
 
             <button type="submit">
                 連絡する！
