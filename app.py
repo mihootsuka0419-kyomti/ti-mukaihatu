@@ -21,6 +21,8 @@ STYLE_CSS_FILE = BASE_DIR / "static" / "style.css"
 TUTORIAL_CSS_FILE = BASE_DIR / "static" / "tutorial.css"
 REPLY_CSS_FILE = BASE_DIR / "static" / "reply.css"
 
+# imgファイル
+OREHAWARUKUNAI_IMAGE = BASE_DIR / "static" / "images" / "orehawarukunai.png"
 
 VALID_CATEGORIES = {
     "movement",
@@ -261,6 +263,21 @@ class AppHandler(BaseHTTPRequestHandler):
                 css,
                     )
             return
+
+         # 1ページ目で使用する画像
+        if self.path == "/static/images/orehawarukunai.png":
+         image = OREHAWARUKUNAI_IMAGE.read_bytes()
+
+        self.send_response(200)
+        self.send_header(
+           "Content-Type",
+            "image/png",
+    )
+        self.end_headers()
+
+        self.wfile.write(image)
+        return
+        
 
         self.send_error(
                     404,
