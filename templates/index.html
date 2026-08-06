@@ -3,11 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>壮大な言い訳</title>
 
-    <link rel="stylesheet" href="/static/style.css">
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
 </head>
 
 <body>
@@ -20,82 +27,116 @@
 
         <main>
 
-            <form method="POST" action="/generate">
+            <!-- 2ページ目で入力した内容 -->
+            <div class="contents-box">
+                {{ row_4 }}
+            </div>
 
-                <!-- start.htmlで選択したカテゴリを保持する -->
-                <input
-                    type="hidden"
-                    name="category"
-                    value="{{ category }}"
-                >
+            <div class="reply-box">
+                どうしてですか？
+            </div>
 
-                <!-- ユーザーが入力した内容 -->
-                <div class="contents-box">
-                    {{ input_value }}
-                </div>
+            <div class="message-area">
 
-                <div class="reply-box">
-                    どうしてですか？
-                </div>
+                <div class="result-area">
 
-                <div class="message-area">
-
-                    <div class="result-area">
-
-                        <div class="result-box">
-                            {{ row_1 }}
-                        </div>
-
-                        <div class="result-box">
-                            {{ row_2 }}
-                        </div>
-
-                        <div class="result-box">
-                            {{ row_3 }}
-                        </div>
-
-                        <div class="result-box">
-                            {{ input_value }}
-                        </div>
-
+                    <div class="result-box">
+                        {{ row_1 }}
                     </div>
 
-                    <span class="read">
-                        既読
-                    </span>
+                    <div class="result-box">
+                        {{ row_2 }}
+                    </div>
+
+                    <div class="result-box">
+                        {{ row_3 }}
+                    </div>
+
+                    <div class="result-box">
+                        {{ row_4 }}
+                    </div>
 
                 </div>
 
-                <div class="error-message">
-                    {{  }}
-                </div>
+                <span class="read">
+                    既読
+                </span>
 
-                <div class="footer">
+            </div>
 
-                   
+            <div class="footer">
+
+                <!-- 同じ入力内容で言い訳だけを再生成する -->
+                <form
+                    method="POST"
+                    action="/generate"
+                    class="action-form"
+                >
+                    <input
+                        type="hidden"
+                        name="category"
+                        value="{{ category }}"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="result"
+                        value="{{ input_value }}"
+                    >
 
                     <button
                         type="submit"
                         class="reset-button"
-                        name="action"
-                        value="regenerate"
                     >
-                        言い訳を考え直す
+                        <strong>
+                            言い訳を考え直す
+                        </strong>
                     </button>
+                </form>
+
+                <!-- 現在表示中の言い訳を4ページ目へ送る -->
+                <form
+                    method="POST"
+                    action="/reply"
+                    class="action-form"
+                >
+                    <input
+                        type="hidden"
+                        name="category"
+                        value="{{ category }}"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="result"
+                        value="{{ input_value }}"
+                    >
+
+                    <textarea
+                        name="row_1"
+                        hidden
+                    >{{ row_1 }}</textarea>
+
+                    <textarea
+                        name="row_2"
+                        hidden
+                    >{{ row_2 }}</textarea>
+
+                    <textarea
+                        name="row_3"
+                        hidden
+                    >{{ row_3 }}</textarea>
 
                     <button
                         type="submit"
                         class="send-button"
-                        name="action"
-                        value="generate"
-                        aria-label="言い訳を生成する"
+                        aria-label="この言い訳を送信"
                     >
                         ▶︎
                     </button>
+                </form>
 
-                </div>
-
-            </form>
+            </div>
 
         </main>
 
