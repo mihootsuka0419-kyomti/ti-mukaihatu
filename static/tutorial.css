@@ -94,6 +94,26 @@ header h1{
 
 }
 
+/* ==========================
+   エラーメッセージ
+========================== */
+
+.error-message {
+
+    margin-bottom: 100px;
+
+    min-height: 24px;
+
+    color: #E90000;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: left;
+    
+}
+
 
 /* ==========================
    フッター
