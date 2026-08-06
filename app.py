@@ -1,3 +1,4 @@
+from html import escape
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs
@@ -14,11 +15,31 @@ INDEX_HTML_FILE = BASE_DIR / "templates" / "index.html"
 CSS_FILE = BASE_DIR / "static" / "style.css"
 
 
+VALID_CATEGORIES = {
+    "movement",
+    "submission",
+    "communication",
+    "general",
+}
+
+
+def normalize_category(category):
+    """
+    不正なカテゴリーが渡された場合はgeneralに戻す。
+    """
+    if category in VALID_CATEGORIES:
+        return category
+
+    return "general"
+
+
 class AppHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         # 最初のカテゴリ選択画面を表示する
         if self.path == "/":
-            html = START_HTML_FILE.read_text(encoding="utf-8")
+            html = START_HTML_FILE.read_text(
+                encoding="utf-8"
+            )
 
             self.send_response(200)
             self.send_header(
@@ -27,12 +48,16 @@ class AppHandler(BaseHTTPRequestHandler):
             )
             self.end_headers()
 
-            self.wfile.write(html.encode("utf-8"))
+            self.wfile.write(
+                html.encode("utf-8")
+            )
             return
 
         # CSSファイルを返す
         if self.path == "/static/style.css":
-            css = CSS_FILE.read_text(encoding="utf-8")
+            css = CSS_FILE.read_text(
+                encoding="utf-8"
+            )
 
             self.send_response(200)
             self.send_header(
@@ -41,16 +66,24 @@ class AppHandler(BaseHTTPRequestHandler):
             )
             self.end_headers()
 
-            self.wfile.write(css.encode("utf-8"))
+            self.wfile.write(
+                css.encode("utf-8")
+            )
             return
 
-        self.send_error(404, "Not Found")
+        self.send_error(
+            404,
+            "Not Found"
+        )
 
     def do_POST(self):
         # カテゴリ選択後、入力画面を表示する
         if self.path == "/input":
             content_length = int(
-                self.headers.get("Content-Length", 0)
+                self.headers.get(
+                    "Content-Length",
+                    0,
+                )
             )
 
             body = self.rfile.read(
@@ -59,8 +92,13 @@ class AppHandler(BaseHTTPRequestHandler):
 
             form_data = parse_qs(body)
 
-            category = (
-                form_data.get("category", ["general"])[0]
+            category = form_data.get(
+                "category",
+                ["general"],
+            )[0]
+
+            category = normalize_category(
+                category
             )
 
             html = INDEX_HTML_FILE.read_text(
@@ -69,16 +107,33 @@ class AppHandler(BaseHTTPRequestHandler):
 
             html = html.replace(
                 "{{ category }}",
-                category
+                escape(category),
             )
+
             html = html.replace(
                 "{{ input_value }}",
-                ""
+                "",
             )
-            html = html.replace("{{ row_1 }}", "")
-            html = html.replace("{{ row_2 }}", "")
-            html = html.replace("{{ row_3 }}", "")
-            html = html.replace("{{ row_4 }}", "")
+
+            html = html.replace(
+                "{{ row_1 }}",
+                "",
+            )
+
+            html = html.replace(
+                "{{ row_2 }}",
+                "",
+            )
+
+            html = html.replace(
+                "{{ row_3 }}",
+                "",
+            )
+
+            html = html.replace(
+                "{{ row_4 }}",
+                "",
+            )
 
             self.send_response(200)
             self.send_header(
@@ -87,13 +142,18 @@ class AppHandler(BaseHTTPRequestHandler):
             )
             self.end_headers()
 
-            self.wfile.write(html.encode("utf-8"))
+            self.wfile.write(
+                html.encode("utf-8")
+            )
             return
 
         # 入力内容から言い訳を生成する
         if self.path == "/generate":
             content_length = int(
-                self.headers.get("Content-Length", 0)
+                self.headers.get(
+                    "Content-Length",
+                    0,
+                )
             )
 
             body = self.rfile.read(
@@ -102,15 +162,23 @@ class AppHandler(BaseHTTPRequestHandler):
 
             form_data = parse_qs(body)
 
-            input_value = (
-                form_data.get("result", [""])[0].strip()
+            input_value = form_data.get(
+                "result",
+                [""],
+            )[0].strip()
+
+            category = form_data.get(
+                "category",
+                ["general"],
+            )[0]
+
+            category = normalize_category(
+                category
             )
 
-            category = (
-                form_data.get("category", ["general"])[0]
+            excuse = generate_excuse(
+                category
             )
-
-            excuse = generate_excuse()
 
             html = INDEX_HTML_FILE.read_text(
                 encoding="utf-8"
@@ -118,27 +186,32 @@ class AppHandler(BaseHTTPRequestHandler):
 
             html = html.replace(
                 "{{ category }}",
-                category
+                escape(category),
             )
+
             html = html.replace(
                 "{{ input_value }}",
-                input_value
+                escape(input_value),
             )
+
             html = html.replace(
                 "{{ row_1 }}",
-                excuse["row_1"]
+                escape(excuse["row_1"]),
             )
+
             html = html.replace(
                 "{{ row_2 }}",
-                excuse["row_2"]
+                escape(excuse["row_2"]),
             )
+
             html = html.replace(
                 "{{ row_3 }}",
-                excuse["row_3"]
+                escape(excuse["row_3"]),
             )
+
             html = html.replace(
                 "{{ row_4 }}",
-                input_value
+                escape(input_value),
             )
 
             self.send_response(200)
@@ -148,10 +221,15 @@ class AppHandler(BaseHTTPRequestHandler):
             )
             self.end_headers()
 
-            self.wfile.write(html.encode("utf-8"))
+            self.wfile.write(
+                html.encode("utf-8")
+            )
             return
 
-        self.send_error(404, "Not Found")
+        self.send_error(
+            404,
+            "Not Found"
+        )
 
 
 def run():
@@ -160,7 +238,7 @@ def run():
 
     server = HTTPServer(
         (host, port),
-        AppHandler
+        AppHandler,
     )
 
     print(
