@@ -3,63 +3,58 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>カテゴリ選択</title>
-    <link
-        rel="stylesheet"
-        href="/static/style.css"
-    >
+    <link rel="stylesheet" href="/static/start.css">
 </head>
 
 <body>
+    <div class="phone">
 
-    <form method="POST" action="/input">
+        <img src="/static/images/orehawarukunai.png" alt="タイトル" class="title-image">
 
-        <div class="tag-area">
+        <form method="POST" action="/input">
 
-            <select
-                name="category"
-                id="category"
-                required
-            >
-                <option
-                    value=""
-                    selected
-                    disabled
-                >
-                    カテゴリを選択してください
-                </option>
+            <p class="title-text">
+                言い訳したい内容を選んでね！
+            </p>
 
-                <option value="movement">
-                    遅刻・移動
-                </option>
+            <div class="tag-area">
 
-                <option value="submission">
-                    提出物
-                </option>
+                <select name="category" id="category" required>
+                    <option value="" selected disabled>
+                        カテゴリの選択
+                    </option>
 
-                <option value="communication">
-                    連絡
-                </option>
+                    <option value="movement">
+                        遅刻・移動
+                    </option>
 
-                <option value="general">
-                    その他
-                </option>
-            </select>
-        </div>
+                    <option value="submission">
+                        提出物
+                    </option>
 
-        <button type="submit">
-            次へ
-        </button>
+                    <option value="communication">
+                        連絡
+                    </option>
 
-    </form>
+                    <option value="general">
+                        その他
+                    </option>
+                </select>
+                <span class="after-text">の言い訳をする！</span>
+            </div>
 
-    <p class="error-message">
-        {{  }}
-    </p>
+            <p class="error-message">
+                {{ error }}
+            </p>
+
+            <button type="submit">
+                連絡する！
+            </button>
+
+        </form>
+    </div>
 
 </body>
 
