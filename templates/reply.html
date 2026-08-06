@@ -27,50 +27,76 @@
 
         <main>
 
-            <form method="POST" action="/generate">
+            <div class="result-area">
 
-                <!-- start.htmlで選択したカテゴリを保持する -->
-                <input
-                    type="hidden"
-                    name="category"
-                    value="{{ category }}"
+                <!-- 3ページ目で確定した言い訳 -->
+                <div class="result-box">
+                    {{ completed_text }}
+                </div>
+
+                <!-- バックエンドが選んだ先生の返答 -->
+                <div class="reply-box">
+                    {{ reply_text }}
+                </div>
+
+            </div>
+
+            <p class="end-message">
+                このチャットは終了しました
+            </p>
+
+            <div class="operation-area">
+
+                <a href="/">
+                    タイトルに戻る
+                </a>
+
+                <!-- 3ページ目の同じ生成結果へ戻る -->
+                <form
+                    method="POST"
+                    action="/back"
+                    class="back-form"
                 >
+                    <input
+                        type="hidden"
+                        name="category"
+                        value="{{ category }}"
+                    >
 
-                <div class="result-area">
+                    <input
+                        type="hidden"
+                        name="result"
+                        value="{{ input_value }}"
+                    >
 
-                    <div class="result-box">
-                      <!--遅刻した理由-->>
-                    </div>
+                    <textarea
+                        name="row_1"
+                        hidden
+                    >{{ row_1 }}</textarea>
 
-                    <div class="reply-box">
-                        <!--先生の言葉-->>
-                    </div>
+                    <textarea
+                        name="row_2"
+                        hidden
+                    >{{ row_2 }}</textarea>
 
-                </div>
+                    <textarea
+                        name="row_3"
+                        hidden
+                    >{{ row_3 }}</textarea>
 
-                <p class="end-message">
-                    このチャットは終了しました
-                </p>
-
-                <div class="operation-area">
-
-                    <a href="/templates/start.html" class="">
-                        タイトルに戻る
-                    </a>
-
-                    <a href="/templates/index.html" class="">
+                    <button
+                        type="submit"
+                        class="back-button"
+                    >
                         1つ前に戻る
-                    </a>
+                    </button>
+                </form>
 
-                </div>
+            </div>
 
-                <div class="footer">
-
-                    <span class="text-area"></span>
-
-                </div>
-
-            </form>
+            <div class="footer">
+                <span class="text-area"></span>
+            </div>
 
         </main>
 
