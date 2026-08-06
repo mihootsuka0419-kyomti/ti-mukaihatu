@@ -57,18 +57,11 @@ header h1 {
 
 main {
     padding: 24px 20px 112px;
-}
-
-
-/* ==============================
-   Form layout
-============================== */
-
-form {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+
 
 
 /* ==============================
@@ -156,6 +149,24 @@ form {
 
 
 /* ==============================
+   Action form
+============================== */
+
+.action-form {
+    margin: 0;
+    display: flex;
+}
+
+.action-form:first-child {
+    flex: 1;
+}
+
+.action-form:last-child {
+    flex: 0 0 auto;
+}
+
+
+/* ==============================
    Footer
 ============================== */
 
@@ -183,26 +194,30 @@ form {
 }
 
 .reset-button {
-    flex: 1;
+    width: 100%;
     padding: 10px 18px;
+    border: 0;
     border-radius: 999px;
     background-color: #ddd;
     color: #555;
+    font: inherit;
     font-size: 15px;
     line-height: 1.4;
     text-align: left;
 }
 
 .send-button {
-    flex: 0 0 46px;
     width: 46px;
+    height: 46px;
     padding: 0;
+    border: 0;
     border-radius: 50%;
     background-color: #426cff;
     color: #fff;
+    font: inherit;
     font-size: 20px;
     line-height: 1;
-    text-align: center;
+    cursor: pointer;
 }
 
 .footer button:hover {
