@@ -129,7 +129,7 @@ main {
     color: #222;
     line-height: 1.5;
     overflow-wrap: anywhere;
-    font-size:24px;
+    font-size: 24px;
 }
 
 .read {
@@ -161,19 +161,19 @@ main {
 }
 
 .result-box:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.result-box:nth-child(2) {
-    animation-delay: 0.5s;
-}
-
-.result-box:nth-child(3) {
     animation-delay: 1s;
 }
 
+.result-box:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.result-box:nth-child(3) {
+    animation-delay: 3s;
+}
+
 .result-box:nth-child(4) {
-    animation-delay: 1.5s;
+    animation-delay: 4s;
 }
 
 
@@ -241,6 +241,8 @@ main {
     color: #555;
     font-size: 18px;
     text-align: left;
+    cursor: pointer;
+
 }
 
 .send-button {
