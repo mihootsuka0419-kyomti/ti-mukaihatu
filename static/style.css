@@ -52,6 +52,7 @@ header h1 {
     color: #fff;
     font-size: 24px;
     line-height: 1.4;
+    font-weight: 600;
     text-align: left;
 }
 
@@ -138,6 +139,41 @@ main {
     font-size: 12px;
     line-height: 1.4;
     text-align: right;
+}
+
+
+.result-box {
+    opacity: 0;
+    transform: translateY(12px);
+    animation: showMessage 0.4s ease forwards;
+}
+
+@keyframes showMessage {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-box:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.result-box:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.result-box:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.result-box:nth-child(4) {
+    animation-delay: 1.5s;
 }
 
 
